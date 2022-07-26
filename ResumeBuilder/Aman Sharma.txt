@@ -1,0 +1,8 @@
+Name = Aman Sharma 
+Dob = 2324 
+email = 34354rgw 
+Hometown = fgadg 
+10Percentage = sdga 
+12percentage = gqf 
+skills = rgreg 
+hobby = erterg 
