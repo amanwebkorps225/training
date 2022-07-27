@@ -16,9 +16,20 @@ def search_asset
 
         system("clear")
 
-        puts "searched value are "
-        
-        puts $total_asset[value] 
+        puts "#{$asset_name[value]}  values are "
+        len = $total_asset[value].length
+             len = len-1
+
+        # puts $total_asset[value] 
+        $total_asset[value].each{
+            |col|
+            col.each{
+            |k ,v|
+            print" #{k} = #{v} ,"
+            
+             }
+             puts" " 
+            }   
         puts"-------------------------------------------------------------"
 
 

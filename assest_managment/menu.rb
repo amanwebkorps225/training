@@ -6,7 +6,7 @@ module Menu
          puts"-------------------------------------------------------------"
        puts"choose option ->"
         puts "1. Add asset"
-       puts "2. view asset"
+       puts "2. view all asset"
        puts "3. Search asset"
        puts "4. Delete asset"
        puts "5. update  asset data"

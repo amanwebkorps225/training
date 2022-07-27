@@ -5,6 +5,7 @@ require_relative "search_asset.rb"
 require_relative "delete_asset.rb"
 require_relative "update_asset.rb"
 require_relative "asset_info.rb"
+require_relative "scan.rb"
 
 
 include Menu 
@@ -13,6 +14,7 @@ include ViewAsset
 include SearchAsset
 include DeleteAsset
 include UpdateAsset
+include ScanAsset
 menu_list
 
 
